@@ -1,8 +1,0 @@
-### Starting build.
-# Target: debug.ml.depends, tags: { extension:ml, file:debug.ml, ocaml, ocamldep, quiet }
-ocamlfind ocamldep -modules debug.ml > debug.ml.depends
-# Target: debug.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:debug.cmo, file:debug.ml, implem, ocaml, quiet }
-ocamlfind ocamlc -c -g -o debug.cmo debug.ml
-# Target: debug.byte, tags: { byte, dont_link_with, extension:byte, file:debug.byte, link, ocaml, program, quiet }
-ocamlfind ocamlc -linkpkg debug.cmo -o debug.byte
-# Compilation successful.

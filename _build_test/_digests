@@ -1,4 +1,0 @@
-"Rule: ocaml dependencies ml (%=debug )": "I\134\193\242\1668.\240\197\143M\194\247I}\205"
-"Resource: /Users/tte/labs/ocaml/debug/debug.ml": "\178T\005\191\243\223\161\1285\142\251\012bt\243\212"
-"Rule: ocaml: ml -> cmo & cmi (%=debug )": "M\153$\129g\026g\162\178)\180?\\\023\203\136"
-"Rule: ocaml: cmo* -> byte (%=debug )": "\21926\197\159\2437\140\156i*q_=B\150"
