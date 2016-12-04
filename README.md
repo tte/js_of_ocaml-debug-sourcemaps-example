@@ -11,7 +11,7 @@ I read official `js_of_ocaml` debug notes and *it wasn't so clear for me*. Then 
 First, clone the project:
 
 ```bash
-$ git clone https://github.com/tte/js_of_ocaml_debug_sourcemaps_example.git <my-project-name>
+$ git clone https://github.com/tte/js_of_ocaml-debug-sourcemaps-example.git <my-project-name>
 $ cd <my-project-name>
 ```
 
@@ -30,13 +30,13 @@ $ npm i -g node-inspector
 ## Run 
 
 ```bash
-$ make test
+$ make run
 ```
 
-This command will compile byte code w/ debuginfo to `_build_test` folder. After success compilation `js_of_ocaml` will handle your byte code w/ sourcemaps. Ok, we have already compiled `debug.js` file and we can easily debug this with `node-debug`.
+This command will compile byte code w/ debuginfo to `_build` folder. After success compilation `js_of_ocaml` will handle your byte code w/ sourcemaps. Ok, we have already compiled `main.js` file and we can easily debug this with `node-debug`.
 
 ```bash
-$ node-debug debug.js
+$ node-debug main.js
 ```
 
 You should see output with endpoint to your localhost. 
@@ -44,12 +44,12 @@ You should see output with endpoint to your localhost.
 ```bash
 Node Inspector v0.12.8
 Visit http://127.0.0.1:8080/?port=5858 to start debugging.
-Debugging `debug.js`
+Debugging `main.js`
 
 Debugger listening on port 5858
 ```
 
-In our module `A.ml` we are using `js_of_ocaml` function `Js.debugger`. Execution of your program will stop at this point and you can check `ml` files in browser's console.
+In our module `Foo.ml` we are using `js_of_ocaml` function `Js.debugger`. Execution of your program will stop at this point and you can check `ml` files in browser's console.
 
 ## Other commands
 

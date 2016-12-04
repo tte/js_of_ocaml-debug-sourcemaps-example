@@ -1,6 +1,6 @@
-open A
+open Foo
 
 
 let () =
   print_string "hello world";
-  print_int @@ A.foo 1 2;
+  print_int @@ Foo.bar 1 2;

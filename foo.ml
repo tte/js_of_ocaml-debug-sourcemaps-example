@@ -1,5 +1,5 @@
 open Js
 
-let foo a b =
+let bar a b =
   Js.debugger ();
   a + b

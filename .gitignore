@@ -1,4 +1,2 @@
-_build_test
+_build
 .DS_Store
-debug.js
-debug.map
