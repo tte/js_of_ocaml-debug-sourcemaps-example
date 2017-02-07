@@ -4,7 +4,7 @@
 
 ## Intro
 
-I read official `js_of_ocaml` debug notes and *it wasn't so clear for me*. Then I tried to create my own dead-simple example. If you know how to make it better - just let me know!
+Dead-simple example how to use debugger with sourcemaps. 
 
 ## Installation
 
